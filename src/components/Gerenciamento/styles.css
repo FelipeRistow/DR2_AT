@@ -1,0 +1,37 @@
+.AddHotelModalContainer {
+    height: 100dvh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.AddHotelModal {
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.AddHotelModal form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.AddHotelImagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.AddHotelImagem input {
+    width: 90%;
+}
